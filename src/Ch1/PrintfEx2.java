@@ -1,4 +1,4 @@
-package Chapter01;
+package Ch1;
 
 public class PrintfEx2 {
     public static void main(String[] args) {
