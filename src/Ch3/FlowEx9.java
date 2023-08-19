@@ -21,7 +21,6 @@ public class FlowEx9 {
                         System.out.println("당신은 2000년 이후에 출생한 남자입니다.");
                 }
                 break;
-                
 
             case '2': case '4':
                 switch (gender) {
