@@ -16,8 +16,8 @@ public class FlowEx32 {
             System.out.println("(3) log");
             System.out.print("원하는 메뉴 (1~3)를 선택하세요.");
 
-            String tmp = sc.nextLine();
-            menu = Integer.parseInt(tmp);
+            String tmp = sc.nextLine(); // 화면에서 입력받은 내용을 tmp에 저장
+            menu = Integer.parseInt(tmp); // 입력받은 문자열 (tmp)을 숫자로 변환
 
             if(menu == 0) {
                 System.out.println("프로그램을 종료합니다.");
@@ -29,8 +29,8 @@ public class FlowEx32 {
 
             for(;;) {
                 System.out.print("계산할 값을 입력하세요.");
-                tmp = sc.nextLine();
-                num = Integer.parseInt(tmp);
+                tmp = sc.nextLine(); // 화면에서 입력받은 내용을 tmp에 저장
+                num = Integer.parseInt(tmp); // 입력받은 문자열 (tmp)을 숫자로 변환
 
                 if(num==0)
                     break;
